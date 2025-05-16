@@ -1,12 +1,53 @@
-# React + Vite
+# Apartments for Sale in West Amman
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A bilingual React application for browsing real estate in West Amman, Jordan**
 
-Currently, two official plugins are available:
+## **About**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project provides a modern interface for browsing apartments for sale in West Amman with full support for both Arabic and English languages.
 
-## Expanding the ESLint configuration
+## **Technologies Used**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** - Frontend framework
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+
+## **Features**
+
+- **Bilingual Support**: Complete Arabic and English interface
+- **Responsive Design**: Works on all devices
+- **Property Filtering**: Search by location, price, and features
+- **Interactive Maps**: Visual location browsing
+
+## **Getting Started**
+
+### **Prerequisites**
+
+- Node.js (v14+)
+- npm or yarn
+
+### **Installation**
+
+```bash
+# Clone the repository
+git clone https://github.com/username/west-amman-apartments.git
+
+# Change to project directory
+cd west-amman-apartments
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## **Scripts**
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+
+## **License**
+
+MIT License
