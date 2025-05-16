@@ -1,7 +1,13 @@
 import React from "react";
+import { BrowserRouter, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 
 const App = () => {
-  return <div className="text-2xl">Hello!</div>;
+  return (
+    <BrowserRouter>
+      <Routes path="/" element={<Home />}></Routes>
+    </BrowserRouter>
+  );
 };
 
 export default App;
